@@ -47,7 +47,7 @@ jobs:
       #  -----  setup uv and load cache   -----
       #----------------------------------------------
       - name: Set up uv
-        uses: astral-sh/setup-uv@2841f9f5c1f3a4d2fe660cb20a8910794bac0423
+        uses: astral-sh/setup-uv@06e4edb239928eb926db9fa84abd11632bf44baa
         with:
           version: ${{ env.UV_VERSION }}
           enable-cache: true
