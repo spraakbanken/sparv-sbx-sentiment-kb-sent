@@ -1522,7 +1522,7 @@ wheels = [
 [[package]]
 name = "sparv-sbx-metadata"
 version = "2.3.1"
-source = { git = "https://github.com/spraakbanken/sparv-sbx-metadata?tag=v2.3.1#f8a83f74e72db2e7713fd7d2060c33ba74a1e001" }
+source = { git = "https://github.com/spraakbanken/sparv-sbx-metadata?lfs=true&tag=v2.3.1#f8a83f74e72db2e7713fd7d2060c33ba74a1e001" }
 dependencies = [
     { name = "langcodes" },
     { name = "pyyaml" },
@@ -1563,15 +1563,15 @@ dev = [
     { name = "pytest", specifier = ">=8.4.2" },
     { name = "pytest-cov", specifier = ">=7.0.0" },
     { name = "ruff", specifier = ">=0.12.12" },
-    { name = "sparv-testing", git = "https://github.com/spraakbanken/sparv-testing?tag=v0.2.0" },
+    { name = "sparv-testing", git = "https://github.com/spraakbanken/sparv-testing?lfs=true&tag=v0.2.0" },
     { name = "syrupy", specifier = ">=5.0.0" },
 ]
-metadata = [{ name = "sparv-sbx-metadata", git = "https://github.com/spraakbanken/sparv-sbx-metadata?tag=v2.3.1" }]
+metadata = [{ name = "sparv-sbx-metadata", git = "https://github.com/spraakbanken/sparv-sbx-metadata?lfs=true&tag=v2.3.1" }]
 
 [[package]]
 name = "sparv-testing"
 version = "0.2.0"
-source = { git = "https://github.com/spraakbanken/sparv-testing?tag=v0.2.0#7cfa166e4699d3f2888f602ab7b4a8927891d5d8" }
+source = { git = "https://github.com/spraakbanken/sparv-testing?lfs=true&tag=v0.2.0#7cfa166e4699d3f2888f602ab7b4a8927891d5d8" }
 dependencies = [
     { name = "sparv" },
 ]
